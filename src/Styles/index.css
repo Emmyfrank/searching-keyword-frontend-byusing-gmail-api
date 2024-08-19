@@ -1,0 +1,145 @@
+
+.applicant-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+}
+
+.applicant-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  
+}
+
+.applicant-image {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-top: 25px;
+  cursor: pointer;
+  background-color:green;
+}
+
+.applicant-info {
+  flex-grow: 1;
+  cursor: pointer;
+}
+
+.applicant-info h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.applicant-info p {
+  margin: 5px 0;
+  color: #666;
+}
+
+button.btnLink {
+  padding: 10px 15px;
+  background-color:whitesmoke;
+  color: #666;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button.btnLink:hover {
+  background-color: rgb(49, 74, 49);
+  color: whitesmoke;
+  
+}
+.mainContainer {
+  max-width: 1280px;
+  margin: auto;
+}
+.mainContainer img {
+  margin-top: 20px;
+}
+.topLogon {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  justify-content: space-between;
+  margin: auto;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.search-page {
+  text-align: center;
+  padding: 20px;
+}
+.head1 {
+  color: green;
+}
+.search-page input {
+  padding: 10px;
+  margin-right: 10px;
+  width: 200px;
+}
+.search-page button {
+  padding: 10px;
+  color: white;
+  background-color: green;
+  border-radius: 7px;
+}
+.search-page button:hover{
+  background-color: rgb(50, 79, 50);
+}
+.Banner{
+width: '50%';
+ height:auto 
+}
+.applicant-info h2{
+  color: rgb(48, 46, 46);
+  margin-left: -30px;
+}
+
+
+
+.search-input-container {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.search-suggestions {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-top: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 1;
+}
+
+.search-suggestions li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.search-suggestions li:hover {
+  color: whitesmoke;
+  background-color: green;
+}
