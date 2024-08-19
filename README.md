@@ -1,10 +1,7 @@
-# SIC Smart IT Consulting - Job Applicant Search
+# searching-keyword-frontend-byusing-gmail-api
 
-Welcome to the SIC Smart IT Consulting job applicant search application. This project is built with React, Vite, and TypeScript. It provides a UI for HR personnel to search for job applicants using keywords and retrieve their email and CV link.
-
-## Live Link
-
-You can check out the live version of the project here: [jix-cv-search-frontend.vercel.app](https://jix-cv-search-frontend.vercel.app)
+Welcome to searching-keyword-frontend-byusing-gmail-api
+. This project is built with React, Vite, and TypeScript. It provides a UI for users personnel to search for using keywords and retrieve their email and CV link.
 
 
 ## Table of Contents
@@ -25,11 +22,6 @@ Ensure you have the following installed on your local development machine:
 
 ### Steps
 
-1. **Clone the repository**
-
-    ```bash
-    git clone https://github.com/smartitconsult/jix-cv-search-frontend.git
-    ```
 
 2. **Install dependencies**
 
