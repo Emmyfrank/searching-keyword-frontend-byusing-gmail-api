@@ -1,8 +1,5 @@
-# searching-keyword-frontend-byusing-gmail-api
-
-Welcome to searching-keyword-frontend-byusing-gmail-api
-. This project is built with React, Vite, and TypeScript. It provides a UI for users personnel to search for using keywords and retrieve their email and CV link.
-
+Searching-keyword-by-using-gmail api frontend in react
+Searching-keyword-by-using-gmail api frontend in react. This project is built with React, Vite, and TypeScript. It provides a UI for a user personnel to search  using keywords and retrieve their email and CV link related to searched keyword.
 
 ## Table of Contents
 
@@ -22,6 +19,11 @@ Ensure you have the following installed on your local development machine:
 
 ### Steps
 
+1. **Clone the repository**
+
+    ```bash
+    git clone https://github.com/Emmyfrank/searching-keyword-frontend-byusing-gmail-api.git
+    ```
 
 2. **Install dependencies**
 
